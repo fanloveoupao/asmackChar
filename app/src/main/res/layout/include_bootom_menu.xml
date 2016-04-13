@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    android:background="@color/boottom_menu_color">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/round"
+        android:text="首页"
+        android:textColor="@color/selector"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+    <!---->
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/round"
+        android:text="槽一下"
+        android:textColor="@color/background_white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+    <!---->
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/round"
+        android:text="我"
+        android:textColor="@color/background_white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+</RelativeLayout>

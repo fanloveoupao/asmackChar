@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <MyView.CircleImageView
+            android:id="@+id/ivLeft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/head" />
+
+        <TextView
+            android:id="@+id/leftMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_left"
+            android:maxWidth="200dp"
+            android:gravity="center"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/rightMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/messge_right"
+            android:maxWidth="200dp"
+            android:gravity="center"
+            android:paddingRight="10dp" />
+
+        <MyView.CircleImageView
+            android:id="@+id/ivRight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/head" />
+    </LinearLayout>
+</LinearLayout>

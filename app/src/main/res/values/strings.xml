@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BruseApp</string>
+
+    <string name="title_activity_start_launch">StartLaunchActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="user_item_one">我的信息</string>
+
+    <string name="user_item_two">更改密码</string>
+
+    <string name="user_item_three">查询</string>
+
+    <string name="user_item_four">退出登录</string>
+
+
+    <string name="loaded_fail">加载失败，请点击屏幕重试</string>
+    <string name="donot_has_sdcard">暂无外部存储</string>
+    <string name="image_count">%1$s张</string>
+    <string name="no_images">您的手机中暂时没有图片哦~</string>
+
+    <string name="crop__saving">正在保存图片…</string>
+    <string name="crop__wait">请稍候…</string>
+    <string name="crop__pick_error">没有可用的图片</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel">取消</string>
+</resources>

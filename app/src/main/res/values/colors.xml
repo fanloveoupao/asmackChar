@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#CC3333</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="transparency">#00000000</color><!-- 透明-->
+    <color name="black">#000000</color>
+    <color name="translucent_black">#77000000</color>
+    <color name="font_gray_deep">#555555</color>
+    <color name="background_white">#ffffff</color>
+    <color name="background_gray_light">#f5f5f5</color>
+    <color name="background_gray_light_main">#f9f9f9</color>
+    <color name="boottom_menu_color">#333333</color>
+    <color name="gray_line_square_edittxt">#cccccc</color>
+    <color name="orange_line_square_edittxt">#ff6600</color>
+    <color name="selector">#339966</color>
+    <color name="font_gray_hint">#bbbbbb</color>
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+</resources>

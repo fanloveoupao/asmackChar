@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/indicator_arrow.png",
+        "source": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/bundles/debug/res/drawable-mdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_flip.png",
+        "source": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/bruse/android/BruseApp/libraryrefresh/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_rotate.png"
+    }
+]

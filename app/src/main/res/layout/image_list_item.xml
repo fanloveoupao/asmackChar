@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyView.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <MyView.MyImageView
+        android:id="@+id/list_item_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:background="@color/translucent_black"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/list_item_cb_click_area"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_gravity="top|right" />
+
+    <CheckBox
+        android:id="@+id/list_item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_checkbox_press"
+        android:clickable="false"
+        android:layout_margin="5dp"
+        android:layout_gravity="top|right"
+        android:focusable="false" />
+
+</MyView.SquareLayout>

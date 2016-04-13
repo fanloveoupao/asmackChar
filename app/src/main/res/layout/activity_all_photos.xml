@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#f88829"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/left_back_image_botton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/arrow_white"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/center_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_34"
+            android:gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/images_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/spacing_medium"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:padding="@dimen/padding_small"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/spacing_medium" >
+    </GridView>
+
+    <include layout="@layout/loading_layout" />
+
+</LinearLayout>

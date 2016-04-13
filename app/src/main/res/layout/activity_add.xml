@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_add_top"></include>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="标题"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ed_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_edittext"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="5dp"
+                    android:text="描述"
+                    android:textSize="20sp" />
+
+
+                <EditText
+                    android:id="@+id/ed_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/selector_edittext"
+                    android:gravity="top"
+                    android:hint="写一下你想描述的吧"
+                    android:lineSpacingExtra="5dp"
+                    android:lines="6"
+                    android:maxLength="200"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/font_gray_hint"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/font_30" />
+
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="电话"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ed_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_edittext"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/background_gray_light"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="添加项目图片"
+                android:textColor="@color/font_gray_deep"
+                android:textSize="@dimen/font_30" />
+
+            <MyView.PictureBar
+                android:id="@+id/picture_bar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:cacheColorHint="@color/transparency"
+                android:gravity="left"
+                android:listSelector="@color/transparency"
+                android:numColumns="3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <MyView.CircleImageView
+            android:id="@+id/user_img_header"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/head"
+            app:border_color="@android:color/black"
+            app:border_width="3dp" />
+        <!--标签-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                style="@style/UserLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进行标签的测试" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:src="@mipmap/starts" />
+        </LinearLayout>
+        <!--标签-->
+    </LinearLayout>
+    <!--功能列表-->
+    <ListView
+        android:id="@+id/user_model_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"></ListView>
+</LinearLayout>

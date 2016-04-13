@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_white">#ffffff</color>
+    <color name="background_gray_light">#f5f5f5</color>
+    <color name="background_gray_light_main">#f9f9f9</color>
+
+    <color name="button_normal_background_orange">#ff8800</color>
+    <color name="button_unavail_background_gray_">#bbbbbb</color>
+    <color name="button_pressed_background_gray_">#ff6600</color>
+    <color name="button_gray_normal">#bbbbbb</color>
+    <color name="button_gray_pressed">#aaaaaa</color>
+    <color name="button_purple_normal">#f83658</color>
+
+    <color name="title_bg">#f88829</color>
+    <color name="item_press_gray">#eeeeee</color>
+
+    <color name="gray_line">#cccccc</color>
+    <color name="gray_line_main">#bbbbbb</color>
+    <color name="gray_line_square_edittxt">#cccccc</color>
+    <color name="orange_line_square_edittxt">#ff6600</color>
+    <color name="orange_line_square_button">#ff8800</color>
+    <color name="orange_line_square_button_pressed">#ff6600</color>
+    <color name="font_gray_wheel">#a9a9a9</color>
+    <color name="font_blue">#336699</color>
+    <color name="font_black">#333333</color>
+    <color name="font_gray_deep">#555555</color>
+    <color name="font_gray_light">#999999</color>
+    <color name="font_gray_unavail">#bbbbbb</color>
+    <color name="font_green">#339900</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_orange">#ff8800</color>
+    <color name="font_red">#cc2200</color>
+    <color name="font_red_ligth">#ff0000</color>
+    <color name="font_gray_hint">#bbbbbb</color>
+    <color name="font_orange_deep">#ff6600</color>
+    <color name="font_orange_deep_deep">#ff5500</color>
+    <color name="font_purple">#7009b2</color>
+    <color name="background_gray_hand_in">#cccccc</color>
+
+    <color name="gray_e0e0e0">#e0e0e0</color>
+    <color name="gray_323232">#323232</color>
+    <!-- 激活账号 -->
+    <color name="black_555555">#555555</color>
+    <color name="theme_color">#F77A1E</color>
+    <color name="blue_336699">#336699</color>
+    <color name="gray_bfbfbf">#bfbfbf</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_666666">#666666</color>
+    <color name="black_333333">#333333</color>
+    <color name="red_cc2200">#cc2200</color>
+    <color name="gray_bbbbbb">#bbbbbb</color>
+    <!--选择地址-->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#E1FFFF</color><!-- 淡青色 -->
+    <color name="gray">#808080</color>
+    <color name="orange">#FFA500</color><!--橘色-->
+    <color name="transparency">#00000000</color><!-- 透明-->
+    <color name="trans_gray">#99666666</color><!-- 透明灰-->
+    <!--详细资料-->
+    <color name="font_336699">#336699</color>
+    <color name="font_eeeeee">#eeeeee</color>
+    <!--我的收藏-->
+    <color name="gray_e8e8e8">#e8e8e8</color>
+    <color name="gray_B4B4B4">#b4b4b4</color>
+    <!--上拉加载更多-->
+    <color name="gray_555555">#555555</color>
+    <!--购买服务-->
+    <color name="orange_FFF5DC">#FFF5DC</color>
+    <color name="orange_fd9c00">#fd9c00</color>
+    <!--订阅类型-->
+    <color name="black_000000">#000000</color>
+    <color name="gray_b8b8b8">#b8b8b8</color>
+    <!--搜索-->
+    <color name="gray_eeeeee">#EEEEEE</color>
+    <color name="gray_cccccc">#cccccc</color>
+    <color name="gray_f5f5f5">#f5f5f5</color>
+    <!--新的好友-->
+    <color name="yellow_ff8800">#ff8800</color>
+
+    <color name="translucent_gray">#aa333333</color>
+</resources>
